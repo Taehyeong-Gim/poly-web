@@ -82,6 +82,7 @@ model Model {
   zipSize       BigInt?       @default(0)
   viewed        Int           @default(0)
   Comment       Comment[]
+  blinded       Boolean       @default(false)
 }
 
 model Comment {
