@@ -21,6 +21,9 @@ const DevIndexPage: NextPage = () => {
             홈페이지 설정
           </div>
         </Link>
+        <Link href="/dev/lab">
+          <div className="w-32 bg-slate-100  p-3 text-center">lab</div>
+        </Link>
       </div>
     </Wrapper>
   );
