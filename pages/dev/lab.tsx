@@ -7,7 +7,7 @@ const Lab: NextPage = () => {
   return (
     <div>
       <button
-        className="w-20 h-20 bg-lime-400"
+        className="w-20 h-[1200px] bg-lime-400"
         onClick={() => {
           setIsOpened(true);
         }}

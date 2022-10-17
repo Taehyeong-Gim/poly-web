@@ -27,7 +27,7 @@ export default function Modal({
   );
   useEffect(() => {
     if (isModalOpened) {
-      document.body.classList.remove("overflow-hidden");
+      document.body.classList.add("overflow-hidden");
     }
   }, [isModalOpened]);
   return (
@@ -42,7 +42,7 @@ export default function Modal({
             return;
           }
         }
-        document.body.classList.add("overflow-hidden");
+        document.body.classList.remove("overflow-hidden");
         setIsModalOpened(false);
       }}
     >
